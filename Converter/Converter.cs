@@ -14,8 +14,8 @@ public class Converter
     {
         return x * 0.621371;
     }
-    // public static double CelToFahr(double x)
-    // {
-    //     return x * 9 / 5 + 32;
-    // }
+    public static double KgToPounds(double x)
+    {
+        return x * 2.20462;
+    }
 }
