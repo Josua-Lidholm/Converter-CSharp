@@ -10,10 +10,10 @@ public class Converter
     {
         return (x - 32) / 1.8;
     }
-    // public static double CelToFahr(double x)
-    // {
-    //     return x * 9 / 5 + 32;
-    // }
+    public static double KmToMiles(double x)
+    {
+        return x * 0.621371;
+    }
     // public static double CelToFahr(double x)
     // {
     //     return x * 9 / 5 + 32;

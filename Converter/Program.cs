@@ -3,9 +3,16 @@
 using Converter;
 
 double temp = 8;
+double dist = 10;
 
-double x = Converter.Converter.CelToFahr(temp);
-double y = Converter.Converter.FahrToCel(x);
+double a = Converter.Converter.CelToFahr(temp);
+double b = Converter.Converter.FahrToCel(a);
 
-Console.WriteLine(x);
-Console.WriteLine(y);
+double c = Converter.Converter.KmToMiles(dist);
+// double d = Converter.Converter.MilesToKilometers(c);
+
+Console.WriteLine(a);
+Console.WriteLine(b);
+
+Console.WriteLine(c);
+// Console.WriteLine(d);
