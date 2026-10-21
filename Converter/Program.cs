@@ -1,3 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+using Converter;
+
+double x = Converter.Converter.CelToFahr(8);
+
+Console.WriteLine($"{x}");
