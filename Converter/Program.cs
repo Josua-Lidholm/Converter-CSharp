@@ -2,6 +2,10 @@
 
 using Converter;
 
-double x = Converter.Converter.CelToFahr(8);
+double temp = 8;
 
-Console.WriteLine($"{x}");
+double x = Converter.Converter.CelToFahr(temp);
+double y = Converter.Converter.FahrToCel(x);
+
+Console.WriteLine(x);
+Console.WriteLine(y);
